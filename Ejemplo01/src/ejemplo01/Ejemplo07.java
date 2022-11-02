@@ -13,13 +13,13 @@ public class Ejemplo07 {
     public static void main(String[] args) {
         // Ejemplo de uso de printf con decimales
         
-        double numerador = 10.0;
-        double denominador = 3.0;
+        double numerador = 25.0;
+        double denominador = 4.0;
         double resultado = numerador / denominador;
         
         System.out.printf("El resultados es: %f\n", resultado);
         
-        System.out.printf("El resultados es: %.2f\n", resultado);
+        System.out.printf("El resultados es: %.5f\n", resultado);
               
     }
 }
